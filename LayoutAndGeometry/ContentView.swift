@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        HStack(alignment: .bottom) {
             Text("Live")
                 .font(.caption)
             Text("long")
