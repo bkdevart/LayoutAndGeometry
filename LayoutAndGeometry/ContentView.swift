@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .background(Color.red)
             .position(x: 100, y: 100)
+            .background(Color.red)
     }
 }
 
