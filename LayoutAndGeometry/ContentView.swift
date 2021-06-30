@@ -10,8 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
+            .background(Color.red) // uses text position
             .offset(x: 100, y: 100)
-            .background(Color.red) // uses original position of the text
+            
     }
 }
 
