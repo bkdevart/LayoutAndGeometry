@@ -19,7 +19,7 @@ struct ContentView: View {
                             .font(.title)
                             .frame(width: fullView.size.width)
                             .background(self.colors[index % 7])
-                            .rotation3DEffect(.degrees(Double(geo.frame(in: .global).minY) / 5), axis: (x: 0, y: 1, z: 0))
+                            .rotation3DEffect(.degrees(Double(geo.frame(in: .global).minY - fullView.size.height / 2) / 5), axis: (x: 0, y: 1, z: 0))
                     }
                     .frame(height: 40)
                 }
